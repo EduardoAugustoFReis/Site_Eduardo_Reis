@@ -1,0 +1,9 @@
+export default{
+  COLORS: {
+    BACKGROUND_HEADER: "#412955",
+    BACKGROUND_COLOR: "#2d2e2e",
+    FONTS_COLORS_LIGHT: "#fff",
+    FONTS_COLORS_LIST: "#B0B4B4",
+    FONTS_COLORS_LINKS: "#6B12C3"
+  }
+}
