@@ -33,7 +33,7 @@ export function Home(){
         <img src="https://github.com/EduardoAugustoFReis.png" alt="Foto de Eduardo Augusto, desenvolvedor deste site." />
         
         <div>
-        <h2>Sobre min</h2>
+        <h2>Sobre mim</h2>
         <p>
           Estudante de ciências da computação em formação acadêmica à procura de uma opurtunidade para desenvolver ainda mais minhas habilidades. <br />
           Desenvolvi projetos full-stack na plataforma de ensino Rocketseat e na faculdade que estou atualmente cursando utlizando os conhecimentos abaixo.
