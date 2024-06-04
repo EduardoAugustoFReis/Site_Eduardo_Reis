@@ -12,6 +12,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaGitSquare } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Home(){
   return(
@@ -80,11 +81,11 @@ export function Home(){
         <h3>Entre em contato</h3>
         <ul>
           <li> <CiMail/> <p>eduardo.afreis@gmail.com</p> </li>
-          <li> <MdPhone /> <p>(61) 99222-6555</p></li>
+          <li> <FaWhatsapp/> <p>(61) 99222-6555</p></li>
         </ul>
         </div>
       
-        </div>
+        </div>  
 
       </Main>
 
