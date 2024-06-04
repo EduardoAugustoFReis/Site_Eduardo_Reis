@@ -36,12 +36,11 @@ export function Home(){
         <div>
         <h2>Sobre mim</h2>
         <p>
-          Estudante de ciências da computação em formação acadêmica à procura de uma opurtunidade para desenvolver ainda mais minhas habilidades. <br />
-          Desenvolvi projetos full-stack na plataforma de ensino Rocketseat e na faculdade que estou atualmente cursando utlizando os conhecimentos abaixo.
-          Espero poder aprender mais e me tornar um desenvolvedor completo tanto no Front-end quanto no Back-end.
+          Estudante de ciências da computação em formação acadêmica na faculdade IESB à procura de um estágio na área de desenvolvimento. <br />
+          Desenvolvi projetos para a web na plataforma de ensino Rocketseat e na faculdade.
         </p>
 
-        <p>Logo abaixo estão meus conhecimentos adquiridos e projetos desenvolvidos.</p>
+        <p>Logo abaixo estão meus conhecimentos adquiridos.</p>
         
         </div>
     
