@@ -23,7 +23,7 @@ export function Home(){
         <a href="https://www.linkedin.com/in/eduardo-augusto-franciscon-reis-173410283/" target="_blank"><AiFillLinkedin/></a>
         </div>
 
-        <h1>Desenvolvedor Full stack</h1>
+        <h1>Desenvolvedor Web</h1>
         
       </Header>
       
