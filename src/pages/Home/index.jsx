@@ -1,97 +1,115 @@
-import {Container, Header, Main, Footer} from "./styles"
-
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
-import { LiaRocketSolid } from "react-icons/lia";
-import { CiMail } from "react-icons/ci";
-import { MdPhone } from "react-icons/md";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
-import { FaDatabase } from "react-icons/fa";
-import { FaGitSquare } from "react-icons/fa";
+import { Container, Header, Main, Footer } from "./styles";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
+import ButtonIcon from "../../components/ButtonIcon";
 
-export function Home(){
-  return(
+export function Home() {
+  const whatsappMessage = encodeURIComponent(
+    "Olá Eduardo! Vi seu portfólio e gostaria de conversar sobre oportunidades. 😊"
+  );
+
+  return (
     <Container>
-
       <Header>
         <div>
-        <a href="https://github.com/EduardoAugustoFReis" target="_blank"><AiFillGithub/> </a>
-        <a href="https://www.linkedin.com/in/eduardo-augusto-franciscon-reis-173410283/" target="_blank"><AiFillLinkedin/></a>
+          <a
+            href="https://github.com/EduardoAugustoFReis"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Acesse meu GitHub"
+          >
+            <AiFillGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/eduardo-augusto-franciscon-reis-173410283/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Acesse meu LinkedIn"
+          >
+            <AiFillLinkedin />
+          </a>
         </div>
 
-        <h1>Desenvolvedor Web</h1>
-        
+        <h1>Desenvolvedor Web & Mobile</h1>
       </Header>
-      
+
       <Main>
         <div className="bio_and_picture">
+          <img
+            src="https://github.com/EduardoAugustoFReis.png"
+            alt="Foto de Eduardo Augusto, desenvolvedor deste site."
+          />
 
-        <img src="https://github.com/EduardoAugustoFReis.png" alt="Foto de Eduardo Augusto, desenvolvedor deste site." />
-        
-        <div>
-        <h2>Sobre mim</h2>
-        <p>
-          Estudante de ciências da computação em formação acadêmica na faculdade IESB à procura de um estágio na área de desenvolvimento. <br />
-          Desenvolvi projetos para a web na plataforma de ensino Rocketseat e na faculdade.
-        </p>
-
-        <p>Logo abaixo estão meus conhecimentos adquiridos.</p>
-        
-        </div>
-    
+          <div>
+            <h2>Sobre mim</h2>
+            <p>
+              Me chamo <strong>Eduardo Augusto</strong>, tenho 24 anos,
+              estudante do 7º semestre de Ciência da Computação na universidade
+              IESB. estou me especializando no desenvolvimento de aplicações
+              <strong> web e mobile</strong>.
+            </p>
+            <p>
+              Tenho como objetivo atuar como desenvolvedor web ou mobile,
+              contribuindo com soluções e desenvolvendo meus conhecimentos.
+            </p>
+          </div>
         </div>
 
         <div className="acknowledge_and_Links">
-        
-        <div>          
-        
-        <h3>Conhecimentos</h3>
-        <ul>
-          <li><FaHtml5/> Html5</li>
-          <li><FaCss3/> Css3</li>
-          <li><IoLogoJavascript/> Javascript</li>
-          <li><FaReact/> ReactJs</li>
-          <li><FaNodeJs/> Node.js</li>
-          <li><FaDatabase/> Sqlite</li>
-          <li><FaGitSquare/> Git</li>
-        </ul>  
-        
+          <div className="knowledge">
+            <h3>Conhecimentos</h3>
+            <ul>
+              <li>React.js</li>
+              <li>React Native</li>
+              <li>TypeScript</li>
+              <li>Styled-Components</li>
+              <li>Noções de Back-end (Node.js)</li>
+              <li>Versionamento com Git</li>
+            </ul>
+          </div>
+
+          <div className="links">
+            <h3>Links</h3>
+            <ul>
+              <li>
+                <AiFillGithub />
+                <a
+                  href="https://github.com/EduardoAugustoFReis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <AiFillLinkedin />
+                <a
+                  href="https://www.linkedin.com/in/eduardo-augusto-franciscon-reis-173410283/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div>
-        <h3>Links dos meus projetos</h3>
-        <ul>
-          <li> <AiFillGithub /> <a href="https://github.com/EduardoAugustoFReis" target="_blank">Github</a></li>
-          <li> <AiFillLinkedin /> <a href="https://www.linkedin.com/in/eduardo-augusto-franciscon-reis-173410283/" target="_blank">Linkedin</a></li>
-        </ul>
-
-        <h3>Minhas certificações</h3>
-        <ul>
-          <li> <LiaRocketSolid /> <a href="https://app.rocketseat.com.br/certificates/6fc25325-ddfb-423a-b31c-c6cfc2d48628" target="_blank">Certificado Rocketseat.</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <h3>Entre em contato</h3>
-        <ul>
-          <li> <CiMail/> <p>eduardo.afreis@gmail.com</p> </li>
-          <li> <FaWhatsapp/> <p>(61) 99222-6555</p></li>
-        </ul>
-        </div>
-      
-        </div>  
-
+        <ButtonIcon
+          icon={FaWhatsapp}
+          ariaLabel="Enviar mensagem no WhatsApp"
+          onClick={() =>
+            window.open(
+              `https://wa.me/5561992226555?text=${whatsappMessage}`,
+              "_blank"
+            )
+          }
+        />
       </Main>
 
       <Footer>
-        <p>Acompanhe meus projetos no Github, obrigado pela oportunidade!</p>
+        <p>Acompanhe meus projetos no GitHub!</p>
       </Footer>
-
     </Container>
-  )
+  );
 }

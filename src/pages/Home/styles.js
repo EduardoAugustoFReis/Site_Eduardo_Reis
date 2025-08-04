@@ -126,6 +126,10 @@ export const Main = styled.div`
       text-decoration: none;
       font-size: 2.0rem;
       color: ${ ({theme}) =>theme.COLORS.FONTS_COLORS_LINKS};
+
+      &:hover {
+        text-decoration: underline;
+      }
       }
 
       a:hover{
@@ -135,7 +139,6 @@ export const Main = styled.div`
     }
    }
   }
-
   
   @media(max-width: 620px){
     
@@ -177,7 +180,7 @@ export const Footer = styled.div`
   width: 100%;
 
   text-align: center;
-  background-color: ${ ({theme}) => theme.COLORS.BACKGROUND_HEADER};
+  background-color: ${ ({theme}) => theme.COLORS.BACKGROUND_FOOTER};
   padding-top: 2.0rem;
   
   >p{
